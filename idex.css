@@ -5,8 +5,8 @@
 }
 
 body{
-     background-image: linear-gradient(90deg,#fda088,#f36e4d);
-     color: azure;
+     background-image: linear-gradient(100deg,#70d2e4,#68d6bb);
+     color: rgb(11, 63, 63);
      font-family: "Poppins", sans-serif;
      min-height: 100vh;
 }
@@ -33,7 +33,7 @@ form input, form button{
 }
 
 form button{
-    color: #f36e4d;
+    color: #70d2e4;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -41,7 +41,7 @@ form button{
 
 form button:hover{
     color: white;
-    background: #f36e4d;
+    background:#70d2e4 ;
 }
 
 .todo-container{
@@ -75,7 +75,7 @@ form button:hover{
 }
 
 .delete-btn, .complete-btn{
-    background: #f36e4d;
+    background: #fa767c;
     color: white;
     border: none;
     padding: 1rem;
@@ -84,7 +84,7 @@ form button:hover{
 }
 
 .complete-btn{
-    background: #4bf3c1;
+    background: #4bf3a5;
 }
 
 .todo-item{
@@ -134,7 +134,7 @@ select{
 .select::after{
     content: "\25bc";
     position: absolute;
-    background: #f36e4d;
+    background: #61c2d3;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -144,5 +144,5 @@ select{
 
 .select:hover::after{
     background: white;
-    color: #f36e4d;
+    color: #61c2d3;
 }
